@@ -1,0 +1,78 @@
+header {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Cookie', cursive;
+    color:darkred;
+}
+
+
+body {
+    background-color: beige;
+
+}
+
+
+.creatOrder {
+    text-align: center;
+    color:darkred;
+    font-family: 'Cookie', cursive;;
+    border-style: solid;
+    margin: 30px;
+    width: 800px, center;
+}
+
+
+.form {
+    font-family: 'Cookie', cursive;
+    text-align: center;
+    color:darkred;
+    border-style: solid;
+    margin: 30px;
+    width: 800px, center;
+}
+
+
+.order {
+    font-family: 'Cookie', cursive;
+    color:darkred;
+    border-style: solid;
+    margin: 30px;
+    width: 800px, center;
+    
+}
+
+
+#btn {
+    font-family: 'Cookie', cursive;
+    color:darkred;
+    display: center;
+    margin: 20px;
+    
+}
+
+
+#crust {
+    display: block inline;
+    margin: 5px;
+}
+
+
+#sauce {
+    display: block inline;
+    margin: 5px;
+}
+
+
+#topping1 {
+    display: inline;
+}
+
+
+#topping2 {
+    display: inline;
+}
+
+
+#topping3 {
+    display: inline;
+}

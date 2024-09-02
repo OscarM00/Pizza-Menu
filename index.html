@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pizzaMenu.css">
+    <title>Pizza Menu</title>
+</head>
+
+<body>
+    <header>Create Your Own Pizza</header>
+
+    <div class="creatOrder">
+        <h3>Available Crust</h3>
+        <p>Original Crust</p>
+        <p>Thin Crust</p>
+
+        <h3>Available Sauces</h3>
+        <p>Classic Tomato</p>
+        <p>Spicy Marinara</p>
+        <p>White Garlic Sauce</p>
+
+        <h3>Available Toppings</h3>
+        <p>Chicken</p>
+        <p>Pepperoni</p>
+        <p>Cheese</p>
+        <p>Mushrooms</p>
+        <p>Baby Spinach</p>
+        <p>Olives</p>
+
+
+    </div>
+    <div class="form">
+        <form>
+            <label for="crust">Choose Your Crust:</label>
+            <input type="text" id="crust" />
+
+            <br>
+
+            <label for="sauce">Choose Your Sauce:</label>
+            <input type="text" id="sauce" />
+
+            <br>
+
+            <label for="topping1">Topping 1:</label>
+            <input type="text" id="topping1" />
+
+
+            <label for="topping2">Topping 2:</label>
+            <input type="text" id="topping2" />
+
+
+            <label for="topping3">Topping 3:</label>
+            <input type="text" id="topping3" />
+
+            <br>
+
+            <button id="btn">Create Order</button>
+        </form>
+    </div>
+    <div class="order">
+        <p>Completed Pizza Order:</p>
+        <div id="pizzaOrder"></div>
+        <div id="toppings"></div>
+        <p>Sales Total:</p>
+        <div id="total">$</div>
+    </div>
+
+    <script src="pizzaMenu.js"></script>
+</body>
+
+
+</html>
