@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pizzaMenu.css">
+    <title>Pizza Menu</title>
+</head>
+
+<body>
+    <header>Create Your Own Pizza</header>
+    <p id="differentVersion"><a href="index.html">Click me to try the text entry version!</a></p>
+
+    <div class="creatOrder">
+        <h3>Available Crust</h3>
+        <p>Original Crust</p>
+        <p>Thin Crust</p>
+
+        <h3>Available Sauces</h3>
+        <p>Classic Tomato</p>
+        <p>Spicy Marinara</p>
+        <p>White Garlic Sauce</p>
+
+        <h3>Available Toppings</h3>
+        <p>Chicken</p>
+        <p>Pepperoni</p>
+        <p>Cheese</p>
+        <p>Mushrooms</p>
+        <p>Baby Spinach</p>
+        <p>Olives</p>
+
+
+    </div>
+    <div class="form">
+        <form>
+            <!-- choose from available crusts instead of typing them  -->
+
+            <label for="crust">Choose Your Crust:</label>
+
+            <!-- makes it avaible to choose from dropdown menu, same as for the sauce -->
+
+            <select id="crust" name="crust">
+                <option value="Original Crust">Original Crust</option>
+                <option value="Thin Crust">Thin Crust</option>
+            </select>
+
+            <br>
+
+            <label for="sauce">Choose Your Sauce:</label>
+            <select id="sauce" name="sauce">
+                <option value="Classic Tomato">Classic Tomatoe</option>
+                <option value="Spicy Marinara">Spicy Marinara</option>
+                <option value="White Garlic">White Garlic Sauce</option>
+            </select>
+
+            <br>
+            <!-- each topping can be selected by checking a box -->
+            <fieldset>
+    <label>
+        <input type="checkbox" name="topping" value="Chicken">
+        Chicken
+    </label>
+
+    <label>
+        <input type="checkbox" name="topping" value="Pepperoni">
+        Pepperoni
+    </label>
+
+    <label>
+        <input type="checkbox" name="topping" value="Cheese">
+        Cheese
+    </label>
+
+    <label>
+        <input type="checkbox" name="topping" value="Mushrooms">
+        Mushrooms
+    </label>
+
+    <label>
+        <input type="checkbox" name="topping" value="Baby Spinach">
+        Baby Spinach
+    </label>
+
+    <label>
+        <input type="checkbox" name="topping" value="Olives">
+        Olives
+    </label>
+</fieldset>
+            <!-- <label for="topping1">Topping 1:</label>
+            <input type="text" id="topping1" />
+
+
+            <label for="topping2">Topping 2:</label>
+            <input type="text" id="topping2" />
+
+
+            <label for="topping3">Topping 3:</label>
+            <input type="text" id="topping3" /> -->
+
+            <br>
+
+            <button id="btn">Create Order</button>
+        </form>
+    </div>
+    <div class="order">
+        <p>Completed Pizza Order:</p>
+        <div id="pizzaOrder"></div>
+        <div id="toppings"></div>
+        <p>Sales Total:</p>
+        <div id="total">$</div>
+    </div>
+
+    <script src="improved.js"></script>
+</body>
+
+
+</html>

@@ -76,3 +76,13 @@ body {
 #topping3 {
     display: inline;
 }
+
+#differentVersion {
+    a {
+        color: darkred;
+        text-decoration: none;
+    } 
+    a:hover {
+        color: black;
+    }
+}
